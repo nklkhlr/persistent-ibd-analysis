@@ -1,0 +1,17 @@
+# input data
+*.csv
+*.tsv
+*.RData
+*.xlsx
+*.zip
+*.pdf
+*.DS_Store
+notes.txt
+
+# output data
+revision/
+
+# R stuff
+*.Rproj
+.Rproj.user/
+.Rhistory
