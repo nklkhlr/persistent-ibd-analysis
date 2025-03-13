@@ -52,7 +52,7 @@ to_pc_coords <- function(new_data, pca) {
 predict_new_samples <- function(
     sce_obj, 
     pca_obj, 
-    bulk_data, 
+    bulk_data 
 ) {
     signature_genes <- rownames(pca_obj$pca$rotation)
     # project new samples into PCA space
